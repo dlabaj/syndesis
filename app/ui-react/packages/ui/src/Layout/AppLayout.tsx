@@ -6,13 +6,13 @@ import {
   Nav,
   NavList,
   Page,
-  PageHeader,
   PageSidebar,
   SkipToContent,
   Toolbar,
   ToolbarGroup,
   ToolbarItem,
 } from '@patternfly/react-core';
+import { CrossNavHeader } from '@rh-uxd/integration-react';
 import { css } from '@patternfly/react-styles';
 import { global_breakpoint_lg } from '@patternfly/react-tokens';
 import * as React from 'react';
@@ -91,6 +91,37 @@ export const AppLayout: React.FunctionComponent<ILayoutBase> = ({
     ),
     10
   );
+  const getCrossNavApps = () => {
+    return [];
+    
+    // if (this.state.appList === null) {
+    //   getAppsList().then(resp => {
+    //     const appEntries = [];
+    //     Object.entries(resp.data).forEach(app => {
+    //       switch (app[0]) {
+    //         case '3scale':
+    //           appEntries.push({ id: app[0], name: '3 Scale', rootUrl: app[1].Host.replace(/(^\w+:|^)\/\//, '') });
+    //           break;
+    //         case 'amqonline':
+    //           appEntries.push({ id: app[0], name: 'AMQ Online', rootUrl: app[1].Host.replace(/(^\w+:|^)\/\//, '') });
+    //           break;
+    //         case 'apicurito':
+    //           appEntries.push({ id: app[0], name: 'Apicurito', rootUrl: app[1].Host.replace(/(^\w+:|^)\/\//, '') });
+    //           break;
+    //         case 'fuse-managed':
+    //           appEntries.push({ id: app[0], name: 'Fuse', rootUrl: app[1].Host.replace(/(^\w+:|^)\/\//, '') });
+    //           break;
+    //         default:
+    //           break;
+    //       }
+    //     });
+    //     this.setState({ appList: appEntries });
+    //   });
+    //   return [];
+    // }
+    // return this.state.appList;
+  };
+
   React.useEffect(() => {
     setIsTabletView(curViewportWidth <= LARGE_VIEWPORT_BREAKPOINT);
   }, [curViewportWidth]);
@@ -104,7 +135,9 @@ export const AppLayout: React.FunctionComponent<ILayoutBase> = ({
         skipToContent={PageSkipToContent}
         onPageResize={onPageResize}
         header={
-          <PageHeader
+          <CrossNavHeader
+            apps={getCrossNavApps()}
+            currentApp={{ id: 'fuse', name: 'Syndesis', rootUrl: 'localhost:3000' }}
             logo={pictograph}
             logoProps={{ onClick: logoOnClick }}
             toolbar={

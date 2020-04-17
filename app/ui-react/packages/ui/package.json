@@ -20,6 +20,8 @@
     "@patternfly/react-styles": "^3.6.26",
     "@patternfly/react-table": "^2.25.6",
     "@patternfly/react-tokens": "^2.7.25",
+    "@rh-uxd/integration-core": "0.1.1",
+    "@rh-uxd/integration-react": "0.1.1",
     "@storybook/addon-a11y": "^5.3.8",
     "@storybook/addon-actions": "^5.3.8",
     "@storybook/addon-info": "^5.3.8",

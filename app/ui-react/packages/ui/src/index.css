@@ -10,6 +10,7 @@
 @import url('~@patternfly/patternfly/layouts/Split/split.css');
 @import url('~@patternfly/patternfly/utilities/Display/display.css');
 @import url('~@patternfly/patternfly/patternfly-fonts.css');
+@import url('~@rh-uxd/integration-core/dist/styles/core.css');
 
 :root {
   --pf-global--FontSize--md: var(--pf-global--FontSize--sm);

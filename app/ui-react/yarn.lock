@@ -2745,6 +2745,19 @@
     victory-core "^33.0.1"
     victory-legend "^33.0.1"
 
+"@patternfly/react-core@3.129.3":
+  version "3.129.3"
+  resolved "https://registry.yarnpkg.com/@patternfly/react-core/-/react-core-3.129.3.tgz#e54e135af9b15a3286ef17acd35997b8fdcf32b8"
+  integrity sha512-QiTTUqA0y55YbDtzjlzKmZ6pGQqxyCF14TBQFH3rXI2RV8Z4C6HyyILm09BD/D/ITQIhT82dp+6nRY/mQOqlkw==
+  dependencies:
+    "@patternfly/react-icons" "^3.14.28"
+    "@patternfly/react-styles" "^3.6.15"
+    "@patternfly/react-tokens" "^2.7.14"
+    emotion "^9.2.9"
+    exenv "^1.2.2"
+    focus-trap-react "^4.0.1"
+    tippy.js "5.1.2"
+
 "@patternfly/react-core@^3.122.4", "@patternfly/react-core@^3.134.2":
   version "3.134.2"
   resolved "https://registry.yarnpkg.com/@patternfly/react-core/-/react-core-3.134.2.tgz#872eda04c8224614137bdd5430aa20292fd5e4e0"
@@ -2757,6 +2770,20 @@
     exenv "^1.2.2"
     focus-trap-react "^4.0.1"
     tippy.js "5.1.2"
+
+"@patternfly/react-icons@3.14.30":
+  version "3.14.30"
+  resolved "https://registry.yarnpkg.com/@patternfly/react-icons/-/react-icons-3.14.30.tgz#86ee33f47cac6cab0b4ee39a29ab782f9dde6491"
+  integrity sha512-HGtdsht66XKExZ4ew5ZWMXEvDAxQwQxW6sjX8h1diya1VDPpeKU6S1jclDPciSForsNMtfsXoku/jE2N3rUCwg==
+  dependencies:
+    "@fortawesome/free-brands-svg-icons" "^5.8.1"
+
+"@patternfly/react-icons@^3.14.28":
+  version "3.15.15"
+  resolved "https://registry.yarnpkg.com/@patternfly/react-icons/-/react-icons-3.15.15.tgz#3174a2fd6cbf38e8d938e8a632ea4c4f73cbab05"
+  integrity sha512-oYOgY7fELe3gKbKB2KRUANpYPWkKkEGpmKdmXonNmNUlg0t/a8V68raVX8bTjXN9pwKsUKqNQW1R+xFibtt0Aw==
+  dependencies:
+    "@fortawesome/free-brands-svg-icons" "^5.8.1"
 
 "@patternfly/react-icons@^3.14.39":
   version "3.14.39"
@@ -2771,6 +2798,17 @@
   integrity sha512-62EZ9k20pO0q63yo4F8kXKscuqY2CfmH7MFjbrvph7kv54pguR05qUFz/zV21nVzk7fXYVkzGhrTEaZYynh/XQ==
   dependencies:
     "@fortawesome/free-brands-svg-icons" "^5.8.1"
+
+"@patternfly/react-styles@^3.6.15":
+  version "3.7.12"
+  resolved "https://registry.yarnpkg.com/@patternfly/react-styles/-/react-styles-3.7.12.tgz#ba942dbf5b5a57b5b57eef2f3fd4d4c6efdd459f"
+  integrity sha512-vTKyC78oKlrS6VTQ3GPYevc17qgxj2Ono+SCDwoMyhUexPEyXRuZHLoZA1/MkJHvSCqJHGBageBAFcRq5wb0XQ==
+  dependencies:
+    camel-case "^3.0.0"
+    css "^2.2.3"
+    cssstyle "^0.3.1"
+    emotion "^9.2.9"
+    emotion-server "^9.2.9"
 
 "@patternfly/react-styles@^3.6.26":
   version "3.6.26"
@@ -2816,6 +2854,11 @@
     exenv "^1.2.2"
     lodash "^4.17.15"
 
+"@patternfly/react-tokens@^2.7.14":
+  version "2.8.12"
+  resolved "https://registry.yarnpkg.com/@patternfly/react-tokens/-/react-tokens-2.8.12.tgz#c3a0cf787a9a1c356829522fd5f8c013aa3085f0"
+  integrity sha512-QyuMaTizuSn9eESl6bcopGKKgFydocc/N8T7OGB6jARBt6gdIoQWcztdBabSIVz/YGoEDw6lKeoNfed8p6GynA==
+
 "@patternfly/react-tokens@^2.7.25":
   version "2.8.4"
   resolved "https://registry.yarnpkg.com/@patternfly/react-tokens/-/react-tokens-2.8.4.tgz#20cb17f2196a25d9cc6ae4cc0e79686ea9bf0bbd"
@@ -2835,6 +2878,23 @@
     prop-types "^15.6.1"
     react-lifecycles-compat "^3.0.4"
     warning "^3.0.0"
+
+"@rh-uxd/integration-core@0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@rh-uxd/integration-core/-/integration-core-0.1.1.tgz#59d98d0ea169e955fa09a2027759e0c96bf33ea7"
+  integrity sha512-IAOgEBtSq+lrzOY9AeC2pISAt6Car+4Qjw9LPGhs90OlvsyGxGeafJLfR/gSfImUEuSlLoOLbo/sUi8tpMFXOg==
+
+"@rh-uxd/integration-react@0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@rh-uxd/integration-react/-/integration-react-0.1.1.tgz#cc36170fc7b3dc02bc0ce386505465b7ba68ebe5"
+  integrity sha512-9fw21pyjcLFgRnGAzJMTyrhy8Hh0hnKA6VzpRqB6EPrbrSqtKRgfkt65N6eqFS+wIHEJw2wrIODyMokNBEB7ZQ==
+  dependencies:
+    "@patternfly/react-core" "3.129.3"
+    "@patternfly/react-icons" "3.14.30"
+    "@rh-uxd/integration-core" "0.1.1"
+    focus-trap-react "6.0.0"
+    react "16.12.0"
+    react-dom "16.12.0"
 
 "@samverschueren/stream-to-observable@^0.3.0":
   version "0.3.0"
@@ -11341,6 +11401,13 @@ focus-lock@^0.6.6:
   resolved "https://registry.yarnpkg.com/focus-lock/-/focus-lock-0.6.6.tgz#98119a755a38cfdbeda0280eaa77e307eee850c7"
   integrity sha512-Dx69IXGCq1qsUExWuG+5wkiMqVM/zGx/reXSJSLogECwp3x6KeNQZ+NAetgxEFpnC41rD8U3+jRCW68+LNzdtw==
 
+focus-trap-react@6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/focus-trap-react/-/focus-trap-react-6.0.0.tgz#3f5a9f68447dd374d22388fb4c50018be83e74a5"
+  integrity sha512-mvEYxmP75PMx0vOqoIAmJHO/qUEvdTAdz6gLlEZyxxODnuKQdnKea2RWTYxghAPrV+ibiIq2o/GTSgQycnAjcw==
+  dependencies:
+    focus-trap "^4.0.2"
+
 focus-trap-react@^4.0.1:
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/focus-trap-react/-/focus-trap-react-4.0.1.tgz#3cffd39341df3b2f546a4a2fe94cfdea66154683"
@@ -11354,6 +11421,14 @@ focus-trap@^3.0.0:
   integrity sha512-jTFblf0tLWbleGjj2JZsAKbgtZTdL1uC48L8FcmSDl4c2vDoU4NycN1kgV5vJhuq1mxNFkw7uWZ1JAGlINWvyw==
   dependencies:
     tabbable "^3.1.0"
+    xtend "^4.0.1"
+
+focus-trap@^4.0.2:
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/focus-trap/-/focus-trap-4.0.2.tgz#4ee2b96547c9ea0e4252a2d4b2cca68944194663"
+  integrity sha512-HtLjfAK7Hp2qbBtLS6wEznID1mPT+48ZnP2nkHzgjpL4kroYHg0CdqJ5cTXk+UO5znAxF5fRUkhdyfgrhh8Lzw==
+  dependencies:
+    tabbable "^3.1.2"
     xtend "^4.0.1"
 
 follow-redirects@1.5.10:
@@ -19552,6 +19627,16 @@ react-docgen@^5.0.0:
     node-dir "^0.1.10"
     strip-indent "^3.0.0"
 
+react-dom@16.12.0:
+  version "16.12.0"
+  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.12.0.tgz#0da4b714b8d13c2038c9396b54a92baea633fe11"
+  integrity sha512-LMxFfAGrcS3kETtQaCkTKjMiifahaMySFDn71fZUNpPHZQEzmk/GiAeIT8JSOrHB23fnuCOMruL2a8NYlw+8Gw==
+  dependencies:
+    loose-envify "^1.1.0"
+    object-assign "^4.1.1"
+    prop-types "^15.6.2"
+    scheduler "^0.18.0"
+
 react-dom@16.9.0:
   version "16.9.0"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.9.0.tgz#5e65527a5e26f22ae3701131bcccaee9fb0d3962"
@@ -19899,7 +19984,7 @@ react-virtualized@^9.20.1:
     prop-types "^15.6.0"
     react-lifecycles-compat "^3.0.4"
 
-react@^16.6.0, react@^16.8.3:
+react@16.12.0, react@^16.6.0, react@^16.8.3:
   version "16.12.0"
   resolved "https://registry.yarnpkg.com/react/-/react-16.12.0.tgz#0c0a9c6a142429e3614834d5a778e18aa78a0b83"
   integrity sha512-fglqy3k5E+81pA8s+7K0/T3DBCF0ZDOher1elBFzF7O6arXJgzyu/FW+COxFvAWXJoJN9KIZbT2LXlukwphYTA==
@@ -21149,6 +21234,14 @@ scheduler@^0.15.0:
   version "0.15.0"
   resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.15.0.tgz#6bfcf80ff850b280fed4aeecc6513bc0b4f17f8e"
   integrity sha512-xAefmSfN6jqAa7Kuq7LIJY0bwAPG3xlCj0HMEBQk1lxYiDKZscY2xJ5U/61ZTrYbmNQbXa+gc7czPkVo11tnCg==
+  dependencies:
+    loose-envify "^1.1.0"
+    object-assign "^4.1.1"
+
+scheduler@^0.18.0:
+  version "0.18.0"
+  resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.18.0.tgz#5901ad6659bc1d8f3fdaf36eb7a67b0d6746b1c4"
+  integrity sha512-agTSHR1Nbfi6ulI0kYNK0203joW2Y5W4po4l+v03tOoiJKpTBbxpNhWDvqc/4IcOw+KLmSiQLTasZ4cab2/UWQ==
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
@@ -22546,7 +22639,7 @@ symbol.prototype.description@^1.0.0:
   dependencies:
     has-symbols "^1.0.0"
 
-tabbable@^3.1.0:
+tabbable@^3.1.0, tabbable@^3.1.2:
   version "3.1.2"
   resolved "https://registry.yarnpkg.com/tabbable/-/tabbable-3.1.2.tgz#f2d16cccd01f400e38635c7181adfe0ad965a4a2"
   integrity sha512-wjB6puVXTYO0BSFtCmWQubA/KIn7Xvajw0x0l6eJUudMG/EAiJvIUnyNX6xO4NpGrJ16lbD0eUseB9WxW0vlpQ==
