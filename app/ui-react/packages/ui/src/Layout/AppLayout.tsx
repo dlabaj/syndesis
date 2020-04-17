@@ -12,7 +12,7 @@ import {
   ToolbarGroup,
   ToolbarItem,
 } from '@patternfly/react-core';
-import { CrossNavHeader } from '@rh-uxd/integration-react';
+import { CrossNavHeader, CrossNavApp } from '@rh-uxd/integration-react';
 import { css } from '@patternfly/react-styles';
 import { global_breakpoint_lg } from '@patternfly/react-tokens';
 import * as React from 'react';
@@ -92,7 +92,10 @@ export const AppLayout: React.FunctionComponent<ILayoutBase> = ({
     10
   );
   const getCrossNavApps = () => {
-    return [];
+    const apps: CrossNavApp[] = [
+      {id: 'first-demo-app', name: 'First Demo App', rootUrl:'localhost:3000', isHttp: true},
+      {id: 'second-demo-app', name: 'Second Demo App', rootUrl:'localhost:3001', isHttp: true}];
+    return apps;
     
     // if (this.state.appList === null) {
     //   getAppsList().then(resp => {
